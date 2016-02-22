@@ -2,11 +2,11 @@ t<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.sainsburys</groupId>
-    <artifactId>sainsburys_appium_junit</artifactId>
+    <groupId>com.myappium</groupId>
+    <artifactId>myappium_junit</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sainsburys_appium_junit</name>
-    <description>Sainsburys Appium tests using JUnit</description>
+    <name>myappium_junit</name>
+    <description>Appium tests using JUnit</description>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -24,30 +24,6 @@ t<?xml version="1.0" encoding="UTF-8"?>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>2.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.googlecode.json-simple</groupId>
-            <artifactId>json-simple</artifactId>
-            <version>1.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
-            <version>2.6</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- Includes the Sauce JUnit helper libraries -->
-        <dependency>
-            <groupId>com.saucelabs</groupId>
-            <artifactId>sauce_junit</artifactId>
-            <version>2.1.3</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.2.4</version>
         </dependency>
     </dependencies>
 
